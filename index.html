@@ -1,74 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>factorial</title>
+    <title>Document</title>
 </head>
-
 <body>
 
-    <form action="#" onsubmit="abc()">
 
-        <h3>Enter any number and get factorial of a Number</h3>
-
-        <input type="number" id="get-Number">
-        <button>Ok</button>
-    </form>
-    <p id="put-factorial"></p>
+    <h1>if...else and else if statements ( javaScript code ) <br> chapter # 12 and 13</h1>
 
 
-    <!-- <script src="app.js"></script> -->
-
-    <script>
-        // let a = 5
-        // for (let i = 5; i <= 1; i--){
-        //     console.log ((i*i)*a)           
-        // }
-
-        // factoials
-
-        // function factorial()
-        //         let n = document.getElementById("get-Number").value;
-
-        function abc() {
-        let a = document.getElementById("get-Number").value
-        let fact = 1
-            for (let i = a; i >= 1; i--)
-            {
-                fact = fact * i
-            }
-            document.getElementById("put-factorial").innerHTML = (fact)
-        }
+    <form action="#" onsubmit=" return submissionForm()">
+    Age : <input type="number" id="age">
+    Hieght : <input type="number" id="height">
+    Nationality : <input type="text" id="nationality">
+   <select name="" id="education">
+       <option value="" >Education</option>
+       <option value="matric">Matric</option>
+       <option value="inter">Inter</option>
+       <option value="graduation">Graduation</option>
+       <option value="master">Master</option>
+   </select>
+   <button >Submite Form</button>
+   
+</form>
+<h1 id="result"></h1>
 
 
+<h1>Using nested if ( javaScript code ) <br> chapter # 14</h1>
+
+<form action="#" onsubmit="armyForm()">
+    Age : <input type="number" id="age1">
+    Hieght : <input type="number" id="height1">
+    Nationality : <input type="text" id="nationality1">
+   <select name="" id="education1">
+       <option value="" >Education</option>
+       <option value="matric">Matric</option>
+       <option value="inter">Inter</option>
+       <option value="graduation">Graduation</option>
+       <option value="master">Master</option>
+   </select>
+   <button >Submite Form</button>
+   
+</form>
+<h1 id="submit"></h1> 
 
 
-        // let n = document.getElementById("get-Number").value;
-        // answer = factorial()
-        // console.log(n + "!" + " = " + answer);
 
 
-
-    //         function factorial(){
-    //   let answer = 1;
-    //   if (n == 0 || n == 1){
-    //     return answer;
-    //   }else{
-    //     for(var i = n; i >= 1; i--){
-    //       answer = answer * i;
-    //     }
-    //     return answer;
-    //   }  
-    // }
-    // let n = 8;
-    // answer = factorial(n)
-    // console.log(n+"!" + " = " + answer);
-
-
-    </script>
-
+    <script src="app.js"></script>
+    
 </body>
-
 </html>
